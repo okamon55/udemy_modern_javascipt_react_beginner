@@ -8,14 +8,15 @@
   <body>
     <!-- Todo入力欄 -->
     <div class="input-area">
-      <input type="text" placeholder="Todoを入力してください" />
-      <button type="button">追加</button>
+      <input type="text" placeholder="Todoを入力してください" id="todo-text" />
+      <button type="button" id="add-todo">追加</button>
     </div>
 
     <!-- 未完了Todo一覧 -->
     <div class="incomplete-area">
       <p class="title">未完了のTodo</p>
-      <ul>
+      <ul id="incomplete-todo-list">
+        <!--
         <li>
           <div class="list-row">
             <div class="todo">Todo</div>
@@ -23,19 +24,22 @@
             <button type="button">削除</button>
           </div>
         </li>
+        -->
       </ul>
     </div>
 
     <!-- 完了Todo一覧 -->
     <div class="complete-area">
       <p class="title">完了したTodo</p>
-      <ul>
+      <ul id="complete-todo-list">
+        <!--
         <li>
           <div class="list-row">
             <div class="todo">Todo</div>
             <button type="button">戻す</button>
           </div>
         </li>
+        -->
       </ul>
     </div>
 
